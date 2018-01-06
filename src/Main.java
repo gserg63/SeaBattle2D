@@ -8,14 +8,6 @@ public class Main {
         Player player = new Player();  // создаем игрока
         PosX posX = new PosX();
         PosY posY = new PosY();
-/*
-        System.out.println("Введите положение корабля: ");
-
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));  //
-        int pos = Integer.parseInt(reader.readLine());                                 // прописать положение корабля
-
-        Ship ship = new Ship(pos-1); // создаем корабль с позицией "pos"
-*/
 
         int positionShipX = posX.getPosX();
         int positionShipY = posY.getPosY();
